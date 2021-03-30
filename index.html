@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Carrossel de avaliações com um botão que gera avaliações aleatórias desenvolvido em Javascript Vanilla ">
+    <meta name="keywords" content="html, web, css, Javascript">
+    <meta name="copyright" content="©2021 Luiz Guilherme Bandeira">
+    <meta name="author" content="Luiz Guilherme Bandeira">
+
+    <title>Mudar a cor do background-color</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <!--TITLE-->
+            <div class="title">
+                <h2>Seus reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <!--REVIEW-->
+            <article class="review">
+                <div class="img-container">
+                    <img src="./assets/img/eu.jpg" id="person-img" alt="Foto de ">
+                </div>
+                <h4 id="author">Luiz Guilherme Bandeira</h4>
+                <p id="job">Desenvolvedor .NET</p>
+                <p id="info">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tempore officia quidem vel voluptas
+                    veniam, similique eum ipsum. Neque, laboriosam.
+                </p>
+                <!--BOTÃO PARA O REVIEW ANTERIOR E PRÓXIMO-->
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                 <!--BOTÃO RANDOW-->
+                 <button class="random-btn">Suprise Me</button>
+            </article>
+
+        </section>
+    </main>
+
+    <!--SCRIPTS-->
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
